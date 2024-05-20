@@ -1,6 +1,80 @@
 * {
     margin: 0;
     padding: auto;
-    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+display: block;
+}
+/* Navegation */
+/* CSS for responsive navigation with hover effect */
+
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    max-width: auto;
+
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+.slide {
+    position: relative;
+    height: 400px; /* Altura da imagem de capa */
+    background-image: url('https://source.unsplash.com/random/'); /* Substitua o caminho pela URL ou caminho local da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Cor do texto sobre a imagem */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-text {
+    font-size: 24px;
+}
+main{
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+}
+/* Media query for responsiveness */
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav li {
+    flex: none;
+  }
 }
