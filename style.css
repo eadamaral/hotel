@@ -30,7 +30,7 @@ header {
 }
 
 .desktop {
-  max-width: 1140px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0px 2%;
 }
@@ -133,9 +133,9 @@ main .slide-img > img {
   justify-content: space-around;
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, 340px);
+  grid-template-columns: repeat(auto-fit, 310px);
   align-items: center;
-  padding: 22px 6px;
+  padding: 18px 6px;
   margin: 0 auto;
   max-width: 1280px;
   background-color: #fff;
