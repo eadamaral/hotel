@@ -289,10 +289,10 @@ main .slide-button-next a span {
 
 
 /*footer ***********************************/
-footer {
+/* footer {
   padding: 6px 4%;
   background-color: #333;
-}
+} */
 
 .footer-desktop {
   display: flex;
