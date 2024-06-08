@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -7,37 +7,127 @@
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <title>Portifólio - Amaral Dias</title>
+  <!-- fonts end icons -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- google icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Hotel</title>
 </head>
 
 <body>
   <!-- header -->
   <header>
-    <div class="container">
-      <img src="src/img/logoHotel.png">
-      <nav class="menu-desktop">
-        <ul>
-          <li><a href="#">início</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-        </ul>
-      </nav>
-      <div class="btn-contato"> <a href="#"><button>Contato</button></a>
+    <div class="desktop">
+      <div class="header-container">
+        <nav class="menu">
+          <img src="src/img/logoHotel.png" alt="Logo-Hotel">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">O Hotel</a></li>
+            <li><a href="#">Acomodações</a></li>
+            <li><a href="#">A cidade</a></li>
+            <li><a href="#">Localização</a></li>
+          </ul>
+          <!-- Botões -->
+          <div class="contato-nav">
+            <div class="btn-call"><a href="#"><button><span class="material-symbols-rounded">call</span></button></a>
+            </div>
+            <div class="btn-reservar">
+              <a href="#"><button>Reservar</button></a>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </header>
   <!-- Main -->
   <main>
-    <div class="container"> 
-             
-      <h4>Conteúdo main</h4>
-  </div>
+    <div class="slide-img">
+      <img src="https://magment.com/wp-content/uploads/2015/10/Bedroom-Wallpaper-7.jpg" alt="Destaques" />
+    </div>
+    <div class="desktop">
+      <div class="slide-control">
+        <div class="slide-button-prev">
+          <a href="#"><span class="material-symbols-rounded">chevron_left
+            </span></a>
+        </div>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="slide-button-next">
+          <a href="#"><span class="material-symbols-rounded">chevron_right
+            </span></a>
+        </div>
+      </div>
+      <section class="info-hotel">
+        <div class="info-box">
+          <!-- itens -->
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">room_service</span>
+            <h5>Check-in a partir das 14h.</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">Wifi</span>
+            <h5>Internet Wi-Fi Grátis</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">ac_unit</span>
+            <h5>Ar-condicionado</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">travel_luggage_and_bags</span>
+            <h5>Check-out até às 12h</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">ac_unit</span>
+            <h5>Recepção 24hs</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">ac_unit</span>
+            <h5>Café da manhã às 7h.</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">person</span>
+            <h5>Recepção 24hs</h5>
+          </div>
+          <div class="info-hotel-items">
+            <span class="material-symbols-rounded">ac_unit</span>
+            <h5>Café da manhã - 7hs às 11hs.</h5>
+          </div>
+        </div>
+
+      </section>
+      <section class="about-hotel">
+        <div class="text">
+          <h1>Amarante Hotel</h1>
+          <h3>O conforto ideal para você dormir bem!</h3>
+          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, commodi ipsam minus assumenda, magni
+            quis voluptatum ipsa, ut facere dolores alias at quasi quibusdam voluptate amet vitae maiores laudantium
+            qui! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio suscipit, numquam esse quia,
+            deleniti vel eos in temporibus alias corrupti fuga consequatur quod at voluptatibus quidem eum sint iste!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia in consequuntur iusto minus fuga provident
+            culpa similique hic sit unde quibusdam sint soluta quasi, a voluptatibus nihil ratione! Cupiditate, eaque.
+          </h5>
+        </div>
+        <div class="image">
+          <img src="src/img/about-hotel.jpg" alt="Foto do Hotel">
+        </div>
+      </section>
+    </div>
   </main>
   <!-- footer -->
   <footer>
-    <h4>Rodapé</h4>
+    <div class="desktop">
+      <h1>Footer</h1>
+      <h1>Footer</h1>
   </footer>
 </body>
 
