@@ -135,7 +135,7 @@ main .slide-img > img {
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, 310px);
   align-items: center;
-  padding: 22px 18px;
+  padding: 22px 12px;
   margin: 0 auto;
   max-width: 1280px;
   background-color: #fff;
