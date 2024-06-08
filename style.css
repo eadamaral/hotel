@@ -32,7 +32,7 @@ header {
 .desktop {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0px 2%;
+  padding: 4px 4%;
 }
 
 .menu {
@@ -133,9 +133,9 @@ main .slide-img > img {
   justify-content: space-around;
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, 310px);
+  grid-template-columns: repeat(auto-fit, 340px);
   align-items: center;
-  padding: 22px 12px;
+  padding: 22px 6px;
   margin: 0 auto;
   max-width: 1280px;
   background-color: #fff;
@@ -167,13 +167,16 @@ main .slide-img > img {
   max-width: 1280px;
   justify-content: space-between;
   border: solid 2px blue;
+
 }
 /* About - Hotel*/
+
 .about-hotel {
   display: flex;
   margin-top: -20px;
   margin-bottom: 20px;
   gap: 32px;
+flex-wrap: wrap; 
 }
 main .about-hotel .image { 
   width: 50%;
@@ -193,7 +196,7 @@ main .about-hotel .text {
   color: #BD3A40;
   font-size: 52px;
   line-height: 50px;
-  font-family: 'Yeseva One';
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .about-hotel h3 {
@@ -289,10 +292,10 @@ main .slide-button-next a span {
 
 
 /*footer ***********************************/
-/* footer {
-  padding: 6px 4%;
-  background-color: #333;
-} */
+
+footer {
+  background-color: #333333;
+}
 
 .footer-desktop {
   display: flex;
