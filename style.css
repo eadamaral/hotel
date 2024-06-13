@@ -38,6 +38,7 @@ header {
 
 .menu {
   display: flex;
+  height: 5rem;
   align-items: center;
   justify-content: space-between;
 
