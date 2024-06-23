@@ -326,13 +326,22 @@ footer .button-return-top:hover {
 
 footer .button-return-top a  {
 color: #F1F1F1;
-width: 3.6rem;
-height: 3.6rem;
-position: relative;
+width: 3.2rem;
+height: 3.2rem;
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
+.contato a  {
+  color: #F1F1F1;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
 .address {
 text-align: center;
