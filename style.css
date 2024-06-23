@@ -318,7 +318,6 @@ footer .contato a {
 
 footer .button-return-top {
   background-color: brown;
-  flex-wrap: nowrap;
 }
 footer .button-return-top:hover {
   background-color: #E98382;
@@ -367,7 +366,8 @@ border: 0px;
 
 /* Estilos específicos para telas menores (até 768px) */
 @media (max-width: 414px) {
-  footer .footer-desktop {
-    flex: 1 0 100%;
+  footer .contato {
+    /* flex: 1 0 100%; */
+    align-self: flex-end;
   }
-
+}
