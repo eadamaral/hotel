@@ -299,6 +299,7 @@ footer {
 .footer-desktop {
   color: #F1F1F1;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -333,7 +334,7 @@ justify-content: center;
 align-items: center;
 }
 
-.contato a i {
+.contato a {
   color: #F1F1F1;
   background-color: #BD3A40;
   width: 2rem;
