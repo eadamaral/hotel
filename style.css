@@ -332,6 +332,7 @@ height: 3.2rem;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: nowrap;
 }
 
 .contato a {
@@ -362,4 +363,10 @@ height: 1px;
 border: 0px;
  background-color: #A52A2A;
 }
+
+/* Estilos específicos para telas menores (até 768px) */
+@media (max-width: 414px) {
+  footer .footer-desktop {
+    flex: 1 0 100%;
+  }
 
