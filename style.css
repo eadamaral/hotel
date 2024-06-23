@@ -333,9 +333,14 @@ justify-content: center;
 align-items: center;
 }
 
+.address {
+text-align: center;
+}
+
 footer .copyright {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin: 1rem auto;
 } 
 
