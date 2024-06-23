@@ -318,6 +318,7 @@ footer .contato a {
 
 footer .button-return-top {
   background-color: brown;
+  flex-wrap: nowrap;
 }
 footer .button-return-top:hover {
   background-color: #E98382;
@@ -332,7 +333,7 @@ height: 3.2rem;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-wrap: nowrap;
+
 }
 
 .contato a {
