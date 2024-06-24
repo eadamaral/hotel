@@ -318,7 +318,7 @@ grid-area: logo;
   grid-area: contato;
   }
 
-  .logo {
+  .button-return-top {
     grid-area: button-return-top;
     }
 
