@@ -325,8 +325,8 @@ grid-area: logo;
     @media (max-width: 414px) {
       .main {
           grid-template-areas:
-              "logo button-retun-top"
-              "contato";
+              "logo button-retun-top button-retun-top"
+              "contato contato contato";
       }
   }
 
