@@ -323,7 +323,7 @@ grid-area: logo;
     }
 
     @media (max-width: 375px) {
-      .main {
+      .footer-desktop {
           grid-template-areas:
               "logo button-retun-top button-retun-top"
               "contato contato contato";
