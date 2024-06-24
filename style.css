@@ -298,13 +298,16 @@ footer {
 
 .footer-desktop {
   color: #F1F1F1;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   margin: 2rem auto;
   max-width: 1280px;
   gap: 2rem;
+
+  display: grid;
+  grid-template-areas:
+  "logo contato button-return-top";
 }
 
 .footer-desktop2 {
