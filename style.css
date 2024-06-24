@@ -310,11 +310,17 @@ footer {
   "logo contato button-return-top";
 }
 
-.footer-desktop2 {
-  display: grid;
-  grid-template-areas:
-  "logo contato button-return-top";
+.logo {
+grid-area: logo;
 }
+
+.contato {
+  grid-area: logo;
+  }
+
+  .logo {
+    grid-area: button-return-top;
+    }
 
 footer .contato h5 {
   margin-bottom: 1rem;
