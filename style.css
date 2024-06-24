@@ -315,14 +315,14 @@ grid-area: logo;
 }
 
 .contato {
-  grid-area: logo;
+  grid-area: contato;
   }
 
   .logo {
     grid-area: button-return-top;
     }
 
-    @media (max-width: 414px) {
+    @media (max-width: 375px) {
       .main {
           grid-template-areas:
               "logo button-retun-top button-retun-top"
