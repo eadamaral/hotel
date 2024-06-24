@@ -1,4 +1,4 @@
-﻿/*Reset*/
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -324,9 +324,17 @@ grid-area: logo;
 
     @media (min-width: 420px) {
       .footer-desktop {
-          grid-template-areas:
-              "logo button-retun-top button-retun-top"
-              "contato contato contato";
+        color: #F1F1F1;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 2rem auto;
+        max-width: 1280px;
+        gap: 2rem;
+      
+        display: grid;
+        grid-template-areas:
+        "logo button-return-top button-return-top";
       }
   }
 
