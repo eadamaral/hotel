@@ -376,8 +376,6 @@ align-items: center;
   align-items: center;
   }
 
-.contato {
-  grid-area: contato;
 
 .address {
 text-align: center;
@@ -397,10 +395,3 @@ border: 0px;
  background-color: #A52A2A;
 }
 
-/* Estilos específicos para telas menores (até 768px) */
-@media (max-width: 414px) {
-  footer .contato {
-    /* flex: 1 0 100%; */
-    align-self: flex-end;
-  }
-}
