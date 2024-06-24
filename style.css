@@ -299,13 +299,18 @@ footer {
 .footer-desktop {
   color: #F1F1F1;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   margin: 2rem auto;
   max-width: 1280px;
   gap: 2rem;
+}
+
+.footer-desktop2 {
+  display: grid;
+  grid-template-areas:
+  "logo contato button-return-top";
 }
 
 footer .contato h5 {
@@ -318,6 +323,7 @@ footer .contato a {
 
 footer .button-return-top {
   background-color: brown;
+  grid-area: button-return-top;
 }
 footer .button-return-top:hover {
   background-color: #E98382;
@@ -345,6 +351,9 @@ align-items: center;
   justify-content: center;
   align-items: center;
   }
+
+.contato {
+  grid-area: contato;
 
 .address {
 text-align: center;
