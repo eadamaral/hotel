@@ -8,20 +8,11 @@
   list-style: none;
 }
 
-
-/*Style Icons Menu*/
-.material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 300,
-    'GRAD' 0,
-    'opsz' 24
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
   background-color: #fff;
+  
 }
 
 /* HEADER *************************************************************/
@@ -289,117 +280,4 @@ main .slide-button-next a span {
 }
 
 
-
-/*footer ***********************************/
-footer {
-  padding: 6px 6%;
-  background-color: #BD3A40;
-}
-
-.footer-desktop {
-  color: #F1F1F1;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  margin: 2rem auto;
-  max-width: 1280px;
-  gap: 2rem;
-
-  display: grid;
-  grid-template-areas:
-  "logo logo button-return-top";
-}
-
-.logo {
-grid-area: logo;
-}
-
-.contato {
-  grid-area: contato;
-  }
-
-  .button-return-top {
-    grid-area: button-return-top;
-    }
-
-    @media (min-width: 420px) {
-      .footer-desktop {
-        color: #F1F1F1;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        margin: 2rem auto;
-        max-width: 1280px;
-        gap: 2rem;
-      
-        display: grid;
-        grid-template-areas:
-        "logo button-return-top button-return-top";
-      }
-  }
-
-
-
-
-
-
-
-
-footer .contato h5 {
-  margin-bottom: 1rem;
-}
-
-footer .contato a {
-  color: #F1F1F1;
-}
-
-footer .button-return-top {
-  background-color: brown;
-  grid-area: button-return-top;
-}
-footer .button-return-top:hover {
-  background-color: #E98382;
-  transition: .2s;
-}
-
-
-footer .button-return-top a  {
-color: #F1F1F1;
-width: 3.2rem;
-height: 3.2rem;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.contato a {
-  color: #F1F1F1;
-  background-color: #BD3A40;
-  width: 2rem;
-  height: 2rem;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-
-
-.address {
-text-align: center;
-justify-content: center;
-}
-
-footer .copyright {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 1rem auto;
-} 
-
-footer hr {
-height: 1px;
-border: 0px;
- background-color: #A52A2A;
-}
 

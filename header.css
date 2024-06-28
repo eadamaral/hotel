@@ -1,0 +1,10 @@
+/* responsividade ******************************/
+
+@media (max-width: 500px) {
+    header .menu ul {
+        display: none;
+      }
+      header .menu .contato-nav {
+        display: none;
+      }
+    }
