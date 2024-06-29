@@ -38,13 +38,16 @@ footer .address i { /* Icons */
 
 footer .address h5 {
     display: flex;
-    /* align-items: center; */
-    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
     color: #FFDBDB;
     font-size: 1rem;
     font-weight: normal;
 }
 
+footer .social {
+    gap: 1rem;
+}
 
 footer .social i { /* Social Icons */
     display: flex;
@@ -57,7 +60,6 @@ footer .social i { /* Social Icons */
     border-radius: 100%;
     font-size: 1.6rem;
     /* margin-right: 1rem; */
-    gap: 1rem;
 }
 
 footer .copyright {
