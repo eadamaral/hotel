@@ -25,9 +25,9 @@ footer .address .address-items {
 
 
 footer .address i { /* Icons */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 2.5rem;
     height: 2.5rem;
     background-color: #DE5056;
@@ -39,7 +39,7 @@ footer .address i { /* Icons */
 footer .address h5 {
     display: flex;
     align-items: center;
-
+    justify-content: center;
     color: #FFDBDB;
     font-size: 1rem;
     font-weight: normal;
