@@ -46,7 +46,7 @@ footer .address h5 {
 }
 
 footer .social {
-    gap: 1rem;
+    gap: 10px;
 }
 
 footer .social i { /* Social Icons */
