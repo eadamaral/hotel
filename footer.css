@@ -17,12 +17,6 @@ footer {
     gap: 1.5rem;
 }
 
-footer .address .address-items {
-    display: flex;
-
-
-}
-
 footer .address i { /* Address Icons */
     display: flex;
     justify-content: center;
@@ -46,6 +40,11 @@ footer .address h5 {
 footer .address hr { /* line address*/
     display: inline-block;
     border-left: 1px solid #A52A2A;
+}
+
+footer .social {
+    display: flex;
+    gap: 1.4rem;
 }
 
 footer .social i { /* Social icons */
@@ -79,7 +78,7 @@ footer hr {
  @media (max-width: 500px) {
     .footer-desktop {
       flex-direction: column;
-      gap: 2.5rem;
+      gap: 2.2rem;
       }
       .logo, .social { /* logo e icones sociais*/
         display: flex;
