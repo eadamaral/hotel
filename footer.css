@@ -23,7 +23,6 @@ footer .address .address-items {
 
 }
 
-
 footer .address i { /* Address Icons */
     display: flex;
     justify-content: center;
@@ -42,6 +41,10 @@ footer .address h5 {
     color: #FFDBDB;
     font-size: 1rem;
     font-weight: normal;
+}
+
+footer .address hr {
+    display: inline-block;
 }
 
 footer .social i { /* Social Icons */
