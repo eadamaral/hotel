@@ -38,7 +38,7 @@ footer .address i { /* Icons */
 
 footer .address h5 {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     color: #FFDBDB;
     font-size: 1rem;
@@ -56,7 +56,8 @@ footer .social i { /* Social Icons */
     color: #FFDBDB;
     border-radius: 100%;
     font-size: 1.6rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
+    gap: 1rem;
 }
 
 footer .copyright {
