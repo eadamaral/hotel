@@ -45,10 +45,6 @@ footer .address h5 {
     font-weight: normal;
 }
 
-footer .social {
-    gap: 10px;
-}
-
 footer .social i { /* Social Icons */
     display: flex;
     justify-content: center;
@@ -59,7 +55,7 @@ footer .social i { /* Social Icons */
     color: #FFDBDB;
     border-radius: 100%;
     font-size: 1.6rem;
-    /* margin-right: 1rem; */
+    margin-right: 1rem;
 }
 
 footer .copyright {
