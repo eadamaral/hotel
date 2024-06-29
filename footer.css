@@ -32,7 +32,7 @@ footer .address i { /* Address Icons */
     /* background-color: #DE5056; */
     color: #FFDBDB;
     font-size: 1.6rem;
-    margin-right: 0.8rem;
+    margin-right: 0.5rem;
 }
 
 footer .address h5 {
@@ -43,14 +43,12 @@ footer .address h5 {
     font-weight: normal;
 }
 
-footer .address hr {
+footer .address hr { /* line address*/
     display: inline-block;
-    width: 1px;
-    border: 0px;
-    background-color: #A52A2A;
+    border-left: 1px solid #A52A2A;
 }
 
-footer .social i { /* Social Icons */
+footer .social i { /* Social icons */
     display: flex;
     justify-content: center;
     align-items: center;
