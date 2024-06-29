@@ -39,8 +39,8 @@ footer .address h5 {
 
 footer .address hr { /* line address*/
     display: inline-block;
-    height: 50px;
-    width: 50px;
+    height: auto;
+    width: 1px;
     border-left: 1px solid brown;
 }
 
