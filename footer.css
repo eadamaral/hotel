@@ -45,7 +45,7 @@ footer .address h5 {
 
 footer .address hr {
     display: inline-block;
-    height: 1px;
+    width: 1px;
     border: 0px;
     background-color: #A52A2A;
 }
@@ -60,7 +60,7 @@ footer .social i { /* Social Icons */
     color: #FFDBDB;
     border-radius: 100%;
     font-size: 1.6rem;
-    margin-right: 1.2rem;
+    margin-right: 1.4rem;
 }
 
 footer .copyright {
