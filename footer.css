@@ -2,7 +2,7 @@
 footer {
     padding: 6px 6%;
     background-color: #c42727;
-
+    align-items: center;  
 }
 
 .footer-desktop {
