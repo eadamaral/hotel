@@ -45,7 +45,7 @@ footer .address hr { /* line address*/
 }
 
 footer .social {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; */
     gap: 0.8rem;
     flex-wrap: wrap;
