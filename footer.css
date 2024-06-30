@@ -1,8 +1,7 @@
 /*footer ***********************************/
 footer {
     padding: 6px 6%;
-    background-color: #c42727;
-    align-items: center;  
+    background-color: #c42727; 
 }
 
 .footer-desktop {
@@ -49,6 +48,7 @@ footer .social {
     display: flex;
     /* flex-direction: row; */
     gap: 0.8rem;
+    flex-wrap: wrap;
 }
 
 footer .social i { /* Social icons */
