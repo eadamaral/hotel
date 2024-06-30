@@ -9,7 +9,8 @@ footer {
     display: flex;
     color: #F1F1F1;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;  
+    flex-wrap: wrap; /* ultima alteração do dia*/  
     /* align-items: center;
     text-align: center; */
     margin: 2rem auto;
