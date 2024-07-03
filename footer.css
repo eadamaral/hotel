@@ -1,33 +1,63 @@
 /*footer ***********************************/
+.material-symbols-outlined {
+    /* Style icons*/
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+footer .logo {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+
 footer {
     padding: 6px 6%;
     background-color: #c42727;
-    border-top: solid 4px #FFDBDB; 
+    border-top: solid 22px #FFDBDB;
 }
 
 .footer-desktop {
     display: flex;
     color: #F1F1F1;
     justify-content: space-between;
-    align-items: center;  
-    flex-wrap: wrap; /* ultima alteração do dia*/  
+    align-items: center;
+    flex-wrap: wrap;
+    /* ultima alteração do dia*/
     /* align-items: center;
     text-align: center; */
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     max-width: 1280px;
     gap: 1.5rem;
 }
 
-footer .address i { /* Address Icons */
+/* footer .address {
+    display: grid;
+    grid-area: address;
+} */
+
+footer .address span {
+    /* Address Icons */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
     /* background-color: #DE5056; */
     color: #FFDBDB;
+    /* background-color: #DE5056; */
     font-size: 1.6rem;
-    margin-right: 0.5rem;
+
+}
+
+footer address h4 {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #DE5056;
+    margin-bottom: 0.5rem;
 }
 
 footer .address h5 {
@@ -36,9 +66,11 @@ footer .address h5 {
     color: #FFDBDB;
     font-size: 1rem;
     font-weight: normal;
+    line-height: 1.5rem;
 }
 
-footer .address hr { /* line address*/
+footer .address hr {
+    /* line address*/
     display: inline-block;
     height: 1px;
     width: 1px;
@@ -46,30 +78,49 @@ footer .address hr { /* line address*/
 }
 
 footer .social {
+    grid-area: social;
     /* display: flex; */
+    display: flex;
     /* flex-direction: row; */
     gap: 0.8rem;
     flex-wrap: wrap;
 }
 
-footer .social i { /* Social icons */
+footer .social i {
+    /* Social icons */
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #DE5056;
     color: #FFDBDB;
     border-radius: 100%;
     font-size: 1.6rem;
-    margin-right: 0.8rem;
+
 }
 
 footer .copyright {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     margin: 1rem auto;
+    color: black; 
+}
+
+
+footer .copyright p{
+    line-height: 1.6rem;
+}
+
+footer .copyright a{
+    color: black;   
+}
+
+
+footer .copyright a:hover{
+    color: #FFDBDB;   
 }
 
 footer hr {
@@ -78,15 +129,72 @@ footer hr {
     background-color: #A52A2A;
 }
 
-/* responsividade ******************************/
+/* Responsividade ******************************/
 
- @media (max-width: 500px) {
-    .footer-desktop {
-      flex-direction: column;
-      gap: 2.2rem;
-      }
-      .logo, .social { /* logo e icones sociais*/
+@media (max-width: 1024px) {
+
+    /* Telas pequenas e Laptop*/
+
+    footer .footer-desktop {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        /* 
+        display: grid;
+        grid-template-areas:
+            "logo address address"
+            "social social social";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr; */
+    }
+
+    footer .social {
         display: flex;
         justify-content: center;
-      }
     }
+
+    header .menu ul {
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* iPad e Tablests*/
+
+    footer .footer-desktop,
+    footer .copyright,
+    .logo {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    footer .footer-desktop {
+        gap: 1.6rem;
+    }
+footer .footer-desktop .address {
+    width: 80%;
+    justify-content: left;
+}
+}
+
+@media (max-width: 420px) {
+
+    /* Dispositivos móveis */
+}
+
+
+/* PADRÕES DE MEDIAS QUERY **********************************************/
+/* 
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs 
+
+480, 768, 1024 e 1200
+
+*/
