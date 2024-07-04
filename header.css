@@ -1,10 +1,112 @@
+
+/*Reset icons ***********************************/
+
+header {
+  border-bottom: solid 2px #BD3A40;
+  ;
+}
+
+.desktop {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 2%;
+}
+
+.menu {
+  display: flex;
+  height: 4.5rem;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+  display: inline-block;
+}
+
+header a:hover {
+  color: #BD3A40;
+  /* transform: scale(1.05);
+  transition: .2s; */
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/*Buttons nav*/
+header .btn-reservar button {
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #BD3A40;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header .btn-call button {
+  padding: 7.6px 10px;
+  /*Espaço interno*/
+  font-size: 16px;
+  /*Tamanho fonte*/
+  font-weight: 400;
+  /*Negrito*/
+  background-color: #BD3A40;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+header .btn-menu-hamburger button {
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  /* background-color: #FFDBDB; */
+  color: #BD3A40;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+header .btn-menu-hamburger button a span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header .contato-nav {
+  padding-left: 30px;
+  display: flex;
+  gap: 15px;
+  ;
+}
+
 /* responsividade ******************************/
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     header .menu ul {
         display: none;
       }
-      header .menu .contato-nav {
+      header .menu .contato-nav .btn-call, .btn-reservar{
         display: none;
       }
     }
+
+@media (max-width: 1030px) {
+
+  header .btn-menu-hamburger button {
+    display: block;
+  }
+
+}    
+
+  
