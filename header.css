@@ -3,20 +3,57 @@
 
 header {
   border-bottom: solid 2px #BD3A40;
-  ;
+  justify-content: center;
+  
 }
 
 .desktop {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0px 2%;
+  padding: 0px 4%;
 }
 
-.menu {
+header .menu {
   display: flex;
   height: 4.5rem;
   align-items: center;
   justify-content: space-between;
+
+}
+
+header .mobile{
+
+  position: absolute;
+  z-index: 1;
+
+  line-height: 3.5rem;
+  padding: 2rem 4%;
+  display: none;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #BD3A40;
+
+  animation: slideInDown 0.30s ease-in-out;
+}
+
+/* Animação menu mobile*/
+@keyframes slideInDown {
+  from {
+    opacity: 0; /* oculto */
+    transform: translateY(-100%); /* Move the container 100% of its height above the viewport */
+  }
+  to {
+    opacity: 1; /* visível */
+    transform: translateY(0); /* Move the container to its original position */
+  }
+}
+/**/
+
+header .mobile p {
+
+color: #fff;
 
 }
 
@@ -66,16 +103,20 @@ header .btn-call button {
   align-items: center;
 }
 
-header .btn-menu-hamburger button {
-  padding: 10px 10px;
-  font-size: 16px;
-  font-weight: 500;
-  /* background-color: #FFDBDB; */
-  color: #BD3A40;
-  border: 0;
-  border-radius: 4px;
-  cursor: pointer;
+
+header .btn-menu-hamburger {
+  border: solid 1px lightgrey;
+  border-radius: 0.1rem;
+  padding: 0.8rem;
   display: none;
+  
+}
+
+header .btn-menu-hamburger a {
+  display: flex;
+  justify-content: center;
+  color: brown;
+  font-size: 1.5rem;
 }
 
 header .btn-menu-hamburger button a span {
@@ -92,18 +133,21 @@ header .contato-nav {
 
 /* responsividade ******************************/
 
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
     header .menu ul {
         display: none;
       }
-      header .menu .contato-nav .btn-call, .btn-reservar{
+     .btn-reservar{
         display: none;
       }
+      header .mobile {
+        display: block;
+      } 
     }
 
-@media (max-width: 1030px) {
+@media (max-width: 1020px) {
 
-  header .btn-menu-hamburger button {
+  header .btn-menu-hamburger, .btn-call {
     display: block;
   }
 
