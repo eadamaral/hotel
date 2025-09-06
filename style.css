@@ -189,7 +189,7 @@ header .contato-nav {
 main .slide-img>img {
   width: 100%;
   height: 80vh;
-  object-fit: contain;
+  object-fit: cover;
   position: absolute;
 }
 
