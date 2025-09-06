@@ -472,8 +472,8 @@ footer hr {
   }
   footer .footer-desktop .copyright {
     display: flex;
-    flex-direction: column;
-      justify-content: center;
+    flex-direction: row;
+      justify-content: space-around;
   }
   }
 
