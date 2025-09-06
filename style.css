@@ -462,7 +462,7 @@ footer hr {
 
 @media (width < 768px) {
   main .info-box {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   }
 
