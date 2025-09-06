@@ -468,12 +468,14 @@ footer hr {
     grid-template-columns: 1fr;
   }
     footer .footer-desktop {
+    display: grid;
     grid-template-columns: 1fr;
+place-items: center;
   }
   footer .copyright {
     display: flex;
     flex-direction: column;
-      justify-content: space-around;
+      text-align: center;
       gap: 1rem;
   }
   }
