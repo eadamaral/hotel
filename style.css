@@ -439,9 +439,9 @@ footer hr {
     display: block;
   }
 
-  /* main .info-box {
+  main .info-box {
     grid-template-columns: 1fr 1fr 1fr;
-  } */
+  }
 
   footer .footer-desktop {
     display: grid;
