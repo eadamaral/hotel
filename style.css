@@ -470,10 +470,10 @@ footer hr {
     footer .footer-desktop {
     grid-template-columns: 1fr;
   }
-  footer .footer-desktop .copyright {
+  footer .copyright {
     display: flex;
-    flex-direction: row;
-      justify-content: space-around;
+    flex-direction: column;
+      justify-content: center;
   }
   }
 
