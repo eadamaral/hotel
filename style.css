@@ -457,9 +457,9 @@ footer hr {
   header .menu-icon-phone {
     display: none;
   }
-  footer .footer-desktop {
+  /* footer .footer-desktop {
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 
   main .info-box {
     grid-template-columns: 1fr 1fr;
