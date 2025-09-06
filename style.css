@@ -188,8 +188,8 @@ header .contato-nav {
 /* Slide */
 main .slide-img>img {
   width: 100%;
-  height: 90vh;
-  object-fit: cover;
+  height: 80vh;
+  object-fit: contain;
   position: absolute;
 }
 
