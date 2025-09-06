@@ -347,7 +347,7 @@ footer .logo {
   align-items: center;
 }
 
-.footer-desktop {
+footer .footer-desktop {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
@@ -444,6 +444,10 @@ footer hr {
   }
 
   footer .footer-desktop {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  footer .footer-desktop {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -453,7 +457,9 @@ footer hr {
   header .menu-icon-phone {
     display: none;
   }
-
+  footer .footer-desktop {
+    grid-template-columns: 1fr 1fr;
+  }
 
   main .info-box {
     grid-template-columns: 1fr 1fr;
@@ -462,6 +468,9 @@ footer hr {
 
 @media (width < 768px) {
   main .info-box {
+    grid-template-columns: 1fr;
+  }
+    footer .footer-desktop {
     grid-template-columns: 1fr;
   }
   }
