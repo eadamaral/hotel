@@ -471,6 +471,11 @@ footer hr {
     footer .footer-desktop {
     grid-template-columns: 1fr;
   }
+  footer .footer-desktop .copyright {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
   }
 
 @media (max-width: 1024px) {
