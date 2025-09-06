@@ -421,7 +421,7 @@ footer hr {
     grid-template-columns: 1fr 1fr; */
     /*     align-items: center; */
     /*     justify-self: start; */
-  
+  }
   /*   footer .social,
   .address {
     justify-content: center;
@@ -434,10 +434,6 @@ footer hr {
   }
   .about-hotel .image > img {
     object-fit: cover;
-  }
-    /*   Ocultar ícone e número de telefone */
-  header .menu-icon-phone {
-    display: none;
   }
 }
 
@@ -456,7 +452,10 @@ footer hr {
   main .info-box {
     grid-template-columns: 1fr 1fr;
   }
-
+  /*   Ocultar ícone e número de telefone */
+  header .menu-icon-phone {
+    display: none;
+  }
   main .about-hotel {
     display: flex;
     flex-direction: column;
@@ -492,7 +491,7 @@ footer hr {
   header .contato-nav .about-hotel {
     display: none;
   }
-  /* Ocultando ícone reserva */
+  /* Ocultando ícone e número */
   header .menu-icon-booking {
     display: none;
   }
