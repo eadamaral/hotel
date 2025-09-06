@@ -71,6 +71,7 @@ header a {
   color: #333;
   display: inline-block;
 }
+
 header a:hover {
   color: var(--default-color);
 }
@@ -86,6 +87,7 @@ header .mobile {
   background-color: #bd3a40;
   animation: slideInDown 0.3s ease-in-out;
 }
+
 header .mobile p {
   color: #fff;
 }
@@ -96,6 +98,7 @@ header .mobile p {
     opacity: 0;
     transform: translateY(-100%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -112,6 +115,7 @@ header .menu-icon-booking {
   border-radius: 4px;
   cursor: pointer;
 }
+
 main .info-box .mobile-icon-booking {
   /*   padding: 10px 40px; */
   font-size: 16px;
@@ -125,12 +129,15 @@ main .info-box .mobile-icon-booking {
 header .menu-icon-menu {
   display: none;
 }
+
 header .menu-icon-booking a {
   color: var(--default-color);
 }
+
 header .menu-icon-phone {
   background-color: var(--default-color);
 }
+
 header .menu-icon,
 .menu-icon-menu,
 .menu-icon-phone,
@@ -160,6 +167,7 @@ header .btn-menu-hamburger {
   padding: 0.8rem;
   display: none;
 }
+
 header .btn-menu-hamburger a {
   display: flex;
   justify-content: center;
@@ -178,12 +186,13 @@ header .contato-nav {
 =================================================== */
 
 /* Slide */
-main .slide-img > img {
+main .slide-img>img {
   width: 100%;
   height: 90vh;
   object-fit: cover;
   position: absolute;
 }
+
 main .slide-control {
   /*   max-width: 1280px; */
   /*   margin: 0 auto; */
@@ -207,6 +216,7 @@ main .slide-control {
   opacity: 80%;
   color: var(--fist-color);
 }
+
 main .slide-button-prev a span,
 main .slide-button-next a span {
   font-size: 30px;
@@ -222,6 +232,7 @@ main .dots {
   justify-items: center;
   margin: 80px;
 }
+
 /* Bolinhas */
 main .dots span {
   display: flex;
@@ -246,6 +257,7 @@ main .info-hotel {
 main .info-box .mobile-icon-booking {
   display: none;
 }
+
 main .info-box .mobile-icon-booking a {
   display: flex;
   justify-content: center;
@@ -267,9 +279,11 @@ main .info-box {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
+
 main .info-hotel-items {
   display: flex;
 }
+
 main .info-hotel-items p {
   padding: 0px 10px;
   font-size: 18px;
@@ -283,30 +297,36 @@ main .info-hotel-items p {
 
   gap: 42px;
 }
+
 main .about-hotel .text {
   width: 50%;
 }
+
 main .about-hotel .image {
   width: 50%;
 }
-.image > img {
+
+.image>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   object-position: center;
   border-radius: 4px;
 }
+
 .about-hotel h1 {
   font-size: 3rem;
   font-family: var(--fist-font);
   margin: 0px;
 }
+
 .about-hotel h2 {
   font-size: 2rem;
   font-family: var(--fist-font);
   /*   line-height: 20px; */
   margin: 1.6rem 0rem;
 }
+
 .about-hotel p {
   font-size: 1rem;
   font-weight: normal;
@@ -321,10 +341,12 @@ footer {
   padding: 6px 6%;
   background-color: var(--fist-color);
 }
+
 footer .logo {
   display: flex;
   align-items: center;
 }
+
 .footer-desktop {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -333,6 +355,7 @@ footer .logo {
   max-width: 1280px;
   gap: 1.5rem;
 }
+
 footer .address span {
   display: flex;
   justify-content: center;
@@ -342,23 +365,27 @@ footer .address span {
   color: #ffdbdb;
   font-size: 1.6rem;
 }
+
 footer address h2 {
   display: flex;
   align-items: center;
   border-bottom: solid 1px var(--second-color);
   margin-bottom: 0.5rem;
 }
+
 footer .address p {
   color: var(--default-color);
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5rem;
 }
+
 footer .social {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
 }
+
 footer .social a {
   /*   display: flex;
   justify-content: center;
@@ -375,6 +402,7 @@ footer .social a {
   align-items: center;
   gap: 0.4rem;
 }
+
 footer .copyright {
   display: flex;
   max-width: 1280px;
@@ -383,11 +411,13 @@ footer .copyright {
   margin: 1rem auto;
   font-size: 1rem;
 }
+
 footer .copyright a,
 footer .copyright p {
   color: var(--third-color);
   font-weight: 300;
 }
+
 footer hr {
   height: 1px;
   border: 0px;
@@ -398,72 +428,88 @@ footer hr {
    RESPONSIVIDADE
 =================================================== */
 @media (width < 1440px) {
+
   /* Oculta ons links do menu */
   .menu ul {
     display: none;
   }
+
   /* Exibe o menu hamburguer */
   header .menu-icon-menu {
     display: block;
   }
+
   main .info-box {
     grid-template-columns: 1fr 1fr 1fr;
   }
-    footer .footer-desktop {
+
+  footer .footer-desktop {
     display: grid;
-      grid-template-columns: 1fr 1fr;
-  }
-}
-@media (width < 1024px) {
-header .menu-icon-phone{
-  display: none;
-}
-}
-@media (max-width: 1024px) {
-/*   footer .footer-desktop {
-    display: grid;
-    grid-template-columns: 1fr 1fr; */
-    /*     align-items: center; */
-    /*     justify-self: start; */
-  }
-  /*   footer .social,
-  .address {
-    justify-content: center;
-  } */
-  main .info-box {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .menu ul {
-    display: none;
-  }
-  .about-hotel .image > img {
-    object-fit: cover;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
+@media (width < 1024px) {
+  header .menu-icon-phone {
+    display: none;
+  }
+
+  /* .menu ul {
+    display: none;
+  } */
+}
+
+@media (max-width: 1024px) {
+  /*   footer .footer-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr; */
+  /*     align-items: center; */
+  /*     justify-self: start; */
+}
+
+/*   footer .social,
+  .address {
+    justify-content: center;
+  } */
+main .info-box {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-hotel .image>img {
+  object-fit: cover;
+}
+}
+
 @media (max-width: 768px) {
+
   footer .footer-desktop,
   footer .copyright,
   .logo {
     flex-direction: column;
   }
+
   footer .footer-desktop {
     gap: 1.6rem;
   }
+
   footer .footer-desktop .address {
     width: 90%;
   }
+
   main .info-box {
     grid-template-columns: 1fr 1fr;
   }
+
   /*   Ocultar ícone e número de telefone */
   header .menu-icon-phone {
     display: none;
   }
+
   main .about-hotel {
     display: flex;
     flex-direction: column;
   }
+
   main .about-hotel .text,
   image {
     display: flex;
@@ -471,6 +517,7 @@ header .menu-icon-phone{
     width: 100%;
     text-align: center;
   }
+
   main .about-hotel .image {
     width: 100%;
   }
@@ -480,10 +527,12 @@ header .menu-icon-phone{
   header .contato-nav p {
     display: none;
   }
+
   main .slide-control .slide-button-next,
   .slide-button-prev {
     display: none;
   }
+
   main .info-box {
     grid-template-columns: 1fr;
   }
@@ -495,21 +544,26 @@ header .menu-icon-phone{
   header .contato-nav .about-hotel {
     display: none;
   }
+
   /* Ocultando ícone e número */
   header .menu-icon-booking {
     display: none;
   }
+
   /* Ocultando botões do slide */
   main .slide-control {
     display: flex;
     justify-content: space-around;
   }
+
   header .menu-icon-phone {
     background-color: var(--third-color);
   }
+
   main .info-box .mobile-icon-booking {
     display: flex;
   }
+
   main .info-box .mobile-icon-booking a {
     width: 100%;
     height: 100%;
