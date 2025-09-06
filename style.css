@@ -414,7 +414,11 @@ footer hr {
       grid-template-columns: 1fr 1fr;
   }
 }
-
+@media (width < 1024px) {
+header .menu-icon-phone{
+  display: none;
+}
+}
 @media (max-width: 1024px) {
 /*   footer .footer-desktop {
     display: grid;
