@@ -444,12 +444,8 @@ footer hr {
   }
 
   footer .footer-desktop {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  footer .footer-desktop {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
