@@ -406,7 +406,6 @@ footer .social a {
 footer .copyright {
   display: flex;
   max-width: 1280px;
-  display: flex;
   justify-content: space-between;
   margin: 1rem auto;
   font-size: 1rem;
@@ -474,7 +473,7 @@ footer hr {
   footer .footer-desktop .copyright {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+      justify-content: center;
   }
   }
 
