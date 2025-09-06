@@ -1,189 +1,171 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+﻿<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Roboto Font Family -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="header.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- fonts end icons -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <!-- google icons -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <!-- Awesome icons -->
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.5.2/css/all.css">
 
-  
-  <title>Hotel</title>
-</head>
 
-<body>
-  <!-- header -->
-  <header>
-    <div class="desktop">
-      <div class="header-container">
-        <nav class="menu">
-          <img src="src/img/LogoHotel.png" alt="Logo-Hotel">
-          <ul>
-            <li><a href="#">O Hotel</a></li>
-            <li><a href="#">Acomodações</a></li>
-            <li><a href="#">A cidade</a></li>
-            <li><a href="#">Localização</a></li>
-          </ul>
-          <!-- Botões -->
-          <div class="contato-nav">
-            <div class="btn-call"><a href="#"><button><span class="material-symbols-rounded">call</span></button></a>
-            </div>
-            <div class="btn-reservar">
-              <a href="#"><button>Reservar</button></a>
-            </div>
-            <div class="btn-menu-hamburger">
-              <a href="#" id="menuicon"><i class="fa-solid fa-bars"></i></a>
-            </div>
+
+<!-- Header -->
+<header>
+  <div class="desktop">
+    <div class="header-container">
+      <nav class="menu">
+        <img src="https://raw.githubusercontent.com/eadamaral/hotel/refs/heads/main/src/img/LogoHotel.png"
+          alt="Logo-Hotel">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">O Black Hotel</a></li>
+          <li><a href="#">Acomodações</a></li>
+          <li><a href="#">A cidade</a></li>
+          <li><a href="#">Localização</a></li>
+        </ul>
+        <!-- Botões -->
+        <div class="contato-nav">
+          <div class="menu-icon-phone">
+            <i data-lucide="phone"></i>
+            <p>+55 71 9000-0000</p>
           </div>
-        </nav>
+          <div class="menu-icon-message">
+            <a href="#"><i data-lucide="message-circle-more"></i></a>
+          </div>
+          <div class="menu-icon-booking">
+            <a href="#">Reservar</a>
+          </div>
+          <div class="menu-icon-menu">
+            <a href="#"><i data-lucide="menu"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Menu mobile -->
+  <nav class="mobile" id="menumobile">
+    <p>Menu um aqui</p>
+    <p>Menu dois aqui</p>
+    <p>Menu três aqui</p>
+    <p>Menu quatro aqui</p>
+  </nav>
+</header>
+
+<!-- Main -->
+<main>
+  <div class="slide-img">
+    <img src="https://raw.githubusercontent.com/eadamaral/hotel/refs/heads/main/src/img/hotel-black-01.jpg"
+      alt="Destaques" />
+  </div>
+  <div class="desktop">
+    <div class="slide-control">
+      <div class="slide-button-prev">
+        <a href="#"><i data-lucide="chevron-left"></i></a>
+      </div>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="slide-button-next">
+        <a href="#"><i data-lucide="chevron-right"></i></a>
       </div>
     </div>
-    <!-- Menu mobile -->
-    <nav class="mobile" id="menumobile">
-      <p>Menu um aqui</p>
-      <p>Menu dois aqui</p>
-      <p>Menu três aqui</p>
-      <p>Menu quatro aqui</p>
-    </nav>
-  </header>
-  <!-- Main -->
-  <main>
-    <div class="slide-img">
-      <img src="https://magment.com/wp-content/uploads/2015/10/Bedroom-Wallpaper-7.jpg" alt="Destaques" />
-    </div>
-    <div class="desktop">
-      <div class="slide-control">
-        <div class="slide-button-prev">
-          <a href="#"><span class="material-symbols-rounded">chevron_left
-            </span></a>
-        </div>
-        <div class="dots">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="slide-button-next">
-          <a href="#"><span class="material-symbols-rounded">chevron_right
-            </span></a>
-        </div>
+    <!-- Information -->
+    <div class="info-box">
+      <!--         Botão reserva mobile -->
+      <div class="mobile-icon-booking">
+        <a href="#">Reservar</a>
       </div>
-      <section class="info-hotel">
-        <div class="info-box">
-          <!-- itens -->
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">room_service</span>
-            <h5>Check-in a partir das 14h.</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">Wifi</span>
-            <h5>Internet Wi-Fi Grátis</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">ac_unit</span>
-            <h5>Ar-condicionado</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">travel_luggage_and_bags</span>
-            <h5>Check-out até às 12h</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">ac_unit</span>
-            <h5>Recepção 24hs</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">ac_unit</span>
-            <h5>Café da manhã às 7h.</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">person</span>
-            <h5>Recepção 24hs</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">ac_unit</span>
-            <h5>Café da manhã - 7hs às 11hs.</h5>
-          </div>
-          <div class="info-hotel-items">
-            <span class="material-symbols-rounded">ac_unit</span>
-            <h5>Café da manhã - 7hs às 11hs.</h5>
-          </div>
-        </div>
-
-      </section>
-      <section class="about-hotel">
-        <div class="text">
-          <h2>Amarante Hotel</h2>
-          <h3>O conforto ideal para você dormir bem!</h3>
-          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, commodi ipsam minus assumenda, magni
-            quis voluptatum ipsa, ut facere dolores alias at quasi quibusdam voluptate amet vitae maiores laudantium
-            qui! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio suscipit, numquam esse quia,
-            deleniti vel eos in temporibus alias corrupti fuga consequatur quod at voluptatibus quidem eum sint iste!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia in consequuntur iusto minus fuga provident
-            culpa similique hic sit unde quibusdam sint soluta quasi, a voluptatibus nihil ratione! Cupiditate, eaque.
-          </h5>
-        </div>
-        <div class="image">
-          <img src="src/img/about-hotel.jpg" alt="Foto do Hotel">
-        </div>
-      </section>
+      <div class="info-hotel-items">
+        <i data-lucide="map-pin"></i>
+        <p>Black City - PE</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="hotel"></i>
+        <p>Recepção 24h</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="clock-arrow-up"></i>
+        <p>Check-in a partir da 14h</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="clock-arrow-down"></i>
+        <p>Check-out até às 12h</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="coffee"></i>
+        <p>Café da manhã</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="footprints"></i>
+        <p>Acesso por escadas</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="circle-parking"></i>
+        <p>Estacionamento Público</p>
+      </div>
+      <div class="info-hotel-items">
+        <i data-lucide="dog"></i>
+        <p>Não aceitamos Pets</p>
+      </div>
     </div>
-  </main>
-  <!-- footer -->
-  <footer>
-    <section class="footer-desktop">
 
-      <div class="logo"><img src="src/img/LogoHotel.png" alt="Logo do Hotel"></div>
-
-      <address class="address">
-        <h4><span class="material-symbols-outlined">
-            location_on
-          </span>Endereço</h4>
-        <h5>Rua Barão de Cotegipe, 11-A Centro,<br>Juazeiro - Bahia | CEP: 48903-440</h5>
-      </address>
-
-      <address class="address">
-        <h4><span class="material-symbols-outlined">
-            phone_in_talk
-          </span>Contato</h4>
-        <h5>+55 (74) 3611-0000 | (74) 3611-0080</h5>
-        <h5>gerencia@sitehotel.com.br</h5>
-      </address>
-
-      <section class="social">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-      </section>
-
+    <!-- About Hotel -->
+    <section class="about-hotel">
+      <div class="text">
+        <h1>Black Hotel</h1>
+        <h2>O conforto ideal para você e sua família!</h2>
+        <p>O Black Hotel é um espaço moderno e acolhedor, ideal para quem busca conforto e praticidade. Localizado no
+          coração da cidade, oferece fácil acesso à orla, restaurantes, supermercados, farmácias e pontos turísticos.
+          Com ambiente elegante, atendimento diferenciado e estrutura pensada para famílias, casais ou viajantes a
+          trabalho, o hotel proporciona a combinação perfeita entre tranquilidade, conveniência e preço justo!</p>
+      </div>
+      <div class="image">
+        <img src="https://raw.githubusercontent.com/eadamaral/hotel/refs/heads/main/src/img/hotel-black-06.jpg"
+          alt="Foto do Hotel">
+      </div>
     </section>
-    <hr>
+  </div>
+</main>
 
-    <div class="copyright">
-      <a href="#">
-        <p>Termos de uso e Privacidade</p>
-      </a>
-      <p>Copyright © Amarante Hotel | 2021 - 2024</p>
-      <a href="#">
-        <p><Strong>Laramax</Strong></p>
-      </a>
+<!-- Footer -->
+<footer>
+  <section class="footer-desktop">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="https://raw.githubusercontent.com/eadamaral/hotel/refs/heads/main/src/img/LogoHotel.png"
+        alt="Logo do Hotel">
     </div>
+    <!-- Redes sociais -->
+    <section class="social">
+      <a href="#"><i data-lucide="instagram"></i></a>
+      <a href="#"><i data-lucide="message-circle-more"></i></a>
+      <a href="#"><i data-lucide="mail-plus"></i></a>
+      <a href="#"><i data-lucide="linkedin"></i></a>
+    </section>
+    <!-- Endereços -->
+    <address class="address">
+      <p>Av. Blackout City<br>BlackCity - PE, CEP: 48903-440</p>
+    </address>
+    <address class="address">
+      <p>+55 87 0000-0000 | +55 87 0000-0000</p>
+      <p>booking@blackhotel.com.br</p>
+    </address>
 
-  </footer>
-</body>
+  </section>
+  <hr>
+  <!-- copyright -->
+  <div class="copyright">
+    <p>Termos de uso e Privacidade</p>
+    <p>Copyright ©Hotel 2025</p>
+    <a href="#">
+      <p>Desenvolvedor</p>
+    </a>
+  </div>
+</footer>
+<!-- Import Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+lucide.createIcons();
 <script src="header.js"></script>
-</html>
