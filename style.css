@@ -298,6 +298,18 @@ main .about-hotel {
   gap: 42px;
 }
 
+main .rooms {
+  display: flex;
+height: 400px;
+  padding: 0 0 2rem 0;
+  border: solid 1px gray;
+}
+
+main .rooms h3{
+display: flex;
+width: 100%;
+}
+
 main .about-hotel .text {
   width: 50%;
 }
