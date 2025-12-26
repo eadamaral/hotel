@@ -15,6 +15,8 @@
   --fist-color: #3f3f3f;
   --second-color: #333333;
   --third-color: #f1f1f1;
+  --fourth-color: #bd3a40;
+  --fifth-color: #bbbbbb;
 }
 
 /* Reset */
@@ -68,12 +70,12 @@ header nav ul li {
 header a {
   font-size: 18px;
   font-weight: normal;
-  color: #333;
+  color: var(--second-color);
   display: inline-block;
 }
 
 header a:hover {
-  color: var(--default-color);
+  color: var(--fifth-color);
 }
 
 /* Mobile menu */
@@ -115,6 +117,11 @@ header .menu-icon-booking {
   border-radius: 4px;
   cursor: pointer;
 }
+header .menu-icon-booking:hover {
+  background-color: var(--fifth-color);
+}
+
+
 
 main .info-box .mobile-icon-booking {
   /*   padding: 10px 40px; */
@@ -294,20 +301,97 @@ main .info-hotel-items p {
 main .about-hotel {
   display: flex;
   padding: 0 0 2rem 0;
-
   gap: 42px;
 }
 
+/* Acomodações -----------------------------*/
+
 main .rooms {
   display: flex;
-height: 400px;
+  height: auto;
   padding: 0 0 2rem 0;
-  border: solid 1px gray;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+main .rooms div {
+  background-color: var(--third-color);
+  width: 370px;
+  padding: 12px;
+  height: auto;
+  line-height: 2.4rem;
+  border-radius: 4px;
+}
+main .rooms div img {
+  width: 100%;
+  height: auto;  
+  /* padding-bottom: 1rem; */
+  border-radius: 4px;
+}
+main .rooms h2, strong{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;  
+}
+
+main .rooms h2 strong p{
+  font-size: 0.9rem; 
 }
 
 main .rooms h3{
 display: flex;
+justify-content: space-between;
 width: 100%;
+padding: 16px 0px;
+font-size: 1.4rem;
+}
+
+main .rooms h3 p{
+display: flex;
+flex-direction: column;
+width: 70px;
+gap: 8px;
+align-items: center;
+justify-content: center;
+justify-items: center;
+/* background-color: var(--third-color); */
+border-radius: 10%;
+padding: 6px;
+border: solid 1px var(--fifth-color)
+}
+
+main .rooms h3 p strong{
+justify-content: center;
+
+}
+
+main .rooms p{
+  font-size: 1rem;
+  font-weight: normal;
+line-height: normal;
+}
+
+main .rooms p strong{
+font-size: 0.8rem;
+font-weight: 400;
+}
+
+main .rooms div a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 18px;
+  background-color: var(--fist-color);
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main .rooms div a p {
+  color: var(--default-color);
 }
 
 main .about-hotel .text {
