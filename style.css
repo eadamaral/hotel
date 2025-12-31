@@ -16,7 +16,9 @@
   --second-color: #333333;
   --third-color: #f1f1f1;
   --fourth-color: #bd3a40;
-  --fifth-color: #bbbbbb;
+  --fifth-color: #bbbbbb; 
+  --sixth-color: #159C7B;
+  --seventh-color: #EAE6E6;
 }
 
 /* Reset */
@@ -314,56 +316,112 @@ main .rooms {
   gap: 2rem;
 }
 
-main .rooms div {
+main .rooms .container {
+  flex-direction: column;
   background-color: var(--third-color);
   width: 370px;
-  padding: 12px;
+  padding: 8px;
   height: auto;
-  line-height: 2.4rem;
+  /* line-height: 2.4rem; */
   border-radius: 4px;
 }
-main .rooms div img {
+main .rooms .container img {
   width: 100%;
   height: auto;  
   /* padding-bottom: 1rem; */
   border-radius: 4px;
 }
-main .rooms h2, strong{
+
+main .rooms .container .card {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 8px 2px;
+}
+
+/* Apartamentos */
+
+main .rooms .container .card .apt{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.4rem;  
+  flex-direction: column;
+  gap: 4px;
+  width: auto;
+}
+
+main .rooms .container .card .apt h2 {
+font-size: 1.5rem;
+font-weight: 500;
+padding-bottom: 4px;
+}
+
+main .rooms .container .card .apt p{
+width: fit-content;
+font-weight: 300;
+background-color: var(--seventh-color);
+font-size: 0.9rem;
+border-radius: 10px;
+padding: 4px 10px;
+}
+
+main .rooms .container .card .preco{
+width: auto;
+display: flex;
+flex-direction: column;
+justify-content: right;
+font-weight: 500;
+}
+
+main .rooms .container .card .preco .moeda{
+  /* font-size: 0.8rem; */
+  font-weight: 500;
+  padding-bottom: 2px;
+}
+
+main .rooms .container .card .preco strong{
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-content: right;
+  color: var(--fourth-color);
+}
+
+main .rooms .container .card .preco p{
+  display: flex;
+  font-weight: 300;
+  justify-content: right;
+  font-size: 0.9rem;
+  padding: 4px 0px;
+}
+
+main .rooms .items{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 14px 0px;
+font-size: 1.4rem;
+}
+
+main .rooms .container .items .icons span{
+display: flex;
+flex-direction: column;
+width: 60px;
+height: 60px;
+/* gap: 8px; */
+align-items: center;
+justify-content: center;
+justify-items: center;
+background-color: var(--seventh-color);
+border-radius: 100%;
+padding: 4px;
+}
+
+main .rooms .container .items .icons span p{
+font-size: 0.8rem;
+font-weight: 300;
+padding-top: 4px;
 }
 
 main .rooms h2 strong p{
   font-size: 0.9rem; 
-}
-
-main .rooms h3{
-display: flex;
-justify-content: space-between;
-width: 100%;
-padding: 16px 0px;
-font-size: 1.4rem;
-}
-
-main .rooms h3 p{
-display: flex;
-flex-direction: column;
-width: 70px;
-gap: 8px;
-align-items: center;
-justify-content: center;
-justify-items: center;
-/* background-color: var(--third-color); */
-border-radius: 10%;
-padding: 6px;
-border: solid 1px var(--fifth-color)
-}
-
-main .rooms h3 p strong{
-justify-content: center;
-
 }
 
 main .rooms p{
@@ -419,7 +477,7 @@ main .about-hotel h1 {
 main .about-hotel h2 {
   font-size: 2rem;
   font-family: var(--fist-font);
-  /*   line-height: 20px; */
+  font-weight: 400;
   margin: 1.6rem 0rem;
 }
 
