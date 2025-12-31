@@ -320,10 +320,10 @@ main .rooms .container {
   flex-direction: column;
   background-color: var(--third-color);
   width: 370px;
-  padding: 8px;
+  padding: 10px;
   height: auto;
-  /* line-height: 2.4rem; */
   border-radius: 4px;
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 main .rooms .container img {
   width: 100%;
@@ -396,9 +396,17 @@ main .rooms .items{
 display: flex;
 justify-content: space-between;
 width: 100%;
-padding: 14px 0px;
-font-size: 1.4rem;
+padding: 16px 0px;
+gap: 4px;
 }
+
+main .rooms .container .items .icons{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 
 main .rooms .container .items .icons span{
 display: flex;
@@ -414,8 +422,8 @@ border-radius: 100%;
 padding: 4px;
 }
 
-main .rooms .container .items .icons span p{
-font-size: 0.8rem;
+main .rooms .container .items .icons p{
+font-size: 0.9rem;
 font-weight: 300;
 padding-top: 4px;
 }
@@ -427,7 +435,7 @@ main .rooms h2 strong p{
 main .rooms p{
   font-size: 1rem;
   font-weight: normal;
-line-height: normal;
+  line-height: normal;
 }
 
 main .rooms p strong{
@@ -442,13 +450,18 @@ main .rooms div a {
   margin-top: 1rem;
   padding: 18px;
   background-color: var(--fist-color);
-  color: #fff;
+  color: var(--default-color);
   border: 0;
   border-radius: 4px;
   cursor: pointer;
 }
 
-main .rooms div a p {
+main .rooms div a:hover {
+  background-color: var(--fourth-color);
+  color: var(--default-color);
+}
+
+main .rooms div a p:hover {
   color: var(--default-color);
 }
 
@@ -658,11 +671,6 @@ place-items: center;
 /* main .info-box {
   grid-template-columns: 1fr 1fr 1fr;
 } */
-
-.about-hotel .image>img {
-  object-fit: cover;
-}
-}
 
 @media (max-width: 768px) {
 
